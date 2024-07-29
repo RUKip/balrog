@@ -34,9 +34,13 @@ setup(
         "Topic :: Software Development :: Testing",
         "Topic :: Software Development :: Libraries",
         "Topic :: Utilities",
-        "Programming Language :: Python :: 2",
-        "Programming Language :: Python :: 3"
-    ] + [("Programming Language :: Python :: %s" % x) for x in "2.6 2.7 3.4".split()],
+        'Programming Language :: Python',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
+        'Programming Language :: Python :: 3.11',
+        'Programming Language :: Python :: 3.12',
+    ],
     packages=["balrog"],
     tests_require=["tox"],
 
